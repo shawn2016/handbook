@@ -8,4 +8,5 @@
 * other
 * [javascript-tutorial](javascript-tutorial.md)
   * [JavaScript-arithmetic](javascript-tutorial/javascript-arithmetic.md)
+    * [冒泡排序](javascript-tutorial/javascript-arithmetic/mao-pao-pai-xu.md)
 
