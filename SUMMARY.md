@@ -8,6 +8,10 @@
   * [函数默认参数](es6-tutorial/han-shu-mo-ren-can-shu.md)
   * 展开运算符
   * 对象字面量
+  * [模块Modules](es6-tutorial/mo-kuai-modules.md)
+  * [新的变量声明方式 let/const](es6-tutorial/xin-de-bian-liang-sheng-ming-fang-shi-let-const.md)
+  * 箭头函数
+  * promise
 * [vue-tutorial](vue-tutorial.md)
   * [vue-document](vue-tutorial/vue-document.md)
     * [介绍](vue-tutorial/vue-document/jie-shao.md)
