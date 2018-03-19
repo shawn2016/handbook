@@ -4,14 +4,14 @@
 * [es6-tutorial](es6-tutorial.md)
   * [class](es6-tutorial/class.md)
   * [模板字符串](es6-tutorial/mo-ban-zi-fu-chuan.md)
-  * 解析结构
+  * [解析结构](es6-tutorial/jie-xi-jie-gou.md)
   * [函数默认参数](es6-tutorial/han-shu-mo-ren-can-shu.md)
-  * 展开运算符
-  * 对象字面量
+  * [展开运算符](es6-tutorial/zhan-kai-yun-suan-fu.md)
+  * [对象字面量](es6-tutorial/dui-xiang-zi-mian-liang.md)
   * [模块Modules](es6-tutorial/mo-kuai-modules.md)
   * [新的变量声明方式 let/const](es6-tutorial/xin-de-bian-liang-sheng-ming-fang-shi-let-const.md)
-  * 箭头函数
-  * promise
+  * [箭头函数](es6-tutorial/jian-tou-han-shu.md)
+  * [promise](es6-tutorial/promise.md)
 * [vue-tutorial](vue-tutorial.md)
   * [vue-document](vue-tutorial/vue-document.md)
     * [介绍](vue-tutorial/vue-document/jie-shao.md)
