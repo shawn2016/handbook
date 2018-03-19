@@ -6,6 +6,8 @@
   * [模板字符串](es6-tutorial/mo-ban-zi-fu-chuan.md)
   * 解析结构
   * [函数默认参数](es6-tutorial/han-shu-mo-ren-can-shu.md)
+  * 展开运算符
+  * 对象字面量
 * [vue-tutorial](vue-tutorial.md)
   * [vue-document](vue-tutorial/vue-document.md)
     * [介绍](vue-tutorial/vue-document/jie-shao.md)
