@@ -31,4 +31,5 @@
   * [bem](css/bem.md)
 * [前端面试](qian-duan-mian-shi.md)
   * [有关BFC的理解](qian-duan-mian-shi/you-guan-bfc-de-li-jie.md)
+  * [盒模型的理解](qian-duan-mian-shi/he-mo-xing-de-li-jie.md)
 
