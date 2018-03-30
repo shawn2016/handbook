@@ -19,6 +19,7 @@
 * [react-tutorial](react-tutorial.md)
 * [angular-tutorial](angular-tutorial.md)
 * [other](other.md)
+  * [vue问题](other/vuewen-ti.md)
 * [javascript-tutorial](javascript-tutorial.md)
   * [JavaScript-arithmetic](javascript-tutorial/javascript-arithmetic.md)
     * [冒泡排序](javascript-tutorial/javascript-arithmetic/mao-pao-pai-xu.md)
@@ -33,4 +34,6 @@
   * [有关BFC的理解](qian-duan-mian-shi/you-guan-bfc-de-li-jie.md)
   * [盒模型的理解](qian-duan-mian-shi/he-mo-xing-de-li-jie.md)
   * [box-sizing的理解](qian-duan-mian-shi/box-sizingde-li-jie.md)
+  * [5个数组Array方法](qian-duan-mian-shi/5ge-shu-zu-array-fang-fa.md)
+* mongoose学习
 
