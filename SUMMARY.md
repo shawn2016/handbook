@@ -35,5 +35,6 @@
   * [盒模型的理解](qian-duan-mian-shi/he-mo-xing-de-li-jie.md)
   * [box-sizing的理解](qian-duan-mian-shi/box-sizingde-li-jie.md)
   * [5个数组Array方法](qian-duan-mian-shi/5ge-shu-zu-array-fang-fa.md)
+  * [forEach，for-in，for-of](qian-duan-mian-shi/foreachfor-infor-of.md)
 * mongoose学习
 
