@@ -37,5 +37,6 @@
   * [5个数组Array方法](qian-duan-mian-shi/5ge-shu-zu-array-fang-fa.md)
   * [forEach，for-in，for-of](qian-duan-mian-shi/foreachfor-infor-of.md)
   * [Js中去除数组中重复元素的4种方法](qian-duan-mian-shi/jszhong-qu-chu-shu-zu-zhong-zhong-fu-yuan-su-de-4-zhong-fang-fa.md)
+  * [Set和Map数据结构](qian-duan-mian-shi/sethe-map-shu-ju-jie-gou.md)
 * mongoose学习
 
