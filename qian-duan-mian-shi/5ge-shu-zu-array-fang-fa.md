@@ -31,13 +31,13 @@ indexOf\(\)方法返回在该数组中第一个找到的元素位置，如果它
 ```
 var arr = ['apple','orange','pear'],
 found = false;
- 
+
 for(var i= 0, l = arr.length; i< l; i++){
 if(arr[i] === 'orange'){
 found = true;
 }
 }
- 
+
 console.log("found:",found);
 ```
 
@@ -45,7 +45,7 @@ console.log("found:",found);
 
 ```
 var arr = ['apple','orange','pear'];
- 
+
 console.log("found:", arr.indexOf("orange") != -1);
 ```
 
@@ -62,15 +62,15 @@ var arr = [
   {"name":"pear", "count": 3},
   {"name":"orange", "count": 16},
 ];
-   
+
 var newArr = [];
- 
+
 for(var i= 0, l = arr.length; i< l; i++){
   if(arr[i].name === "orange" ){
 newArr.push(arr[i]);
 }
 }
- 
+
 console.log("Filter results:",newArr);
 ```
 
@@ -83,12 +83,12 @@ var arr = [
   {"name":"pear", "count": 3},
   {"name":"orange", "count": 16},
 ];
-   
+
 var newArr = arr.filter(function(item){
   return item.name === "orange";
 });
- 
- 
+
+
 console.log("Filter results:",newArr);
 ```
 
@@ -98,41 +98,19 @@ forEach为每个元素执行对应的方法
 
 ```
 var arr = [1,2,3,4,5,6,7,8];
- 
+
 // Uses the usual "for" loop to iterate
 for(var i= 0, l = arr.length; i< l; i++){
 console.log(arr[i]);
 }
- 
+
 console.log("========================");
- 
+
 //Uses forEach to iterate
 arr.forEach(function(item,index){
 console.log(item);
 });
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
