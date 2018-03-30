@@ -42,3 +42,43 @@ Array.prototype.method1 = function(){
         }  
 ```
 
+方法3：
+
+从第二项开始遍历数组
+
+```
+ Array.prototype.method3 = function(){  
+            //直接定义结果数组  
+            var arr[this[0]];  
+            for(var i = 1; i < this.length; i++){    //从数组第二项开始循环遍历此数组  
+                //对元素进行判断：  
+                //如果数组当前元素在此数组中第一次出现的位置不是i  
+                //那么我们可以判断第i项元素是重复的，否则直接存入结果数组  
+                if(this.indexOf(this[i]) == i){  
+                    arr.push(this[i]);  
+                }  
+            }  
+            return arr;  
+          
+        }  
+```
+
+方法4：
+
+```
+Array.prototype.method4 = function(){  
+            //将数组进行排序  
+            this.sort();  
+            //定义结果数组  
+            var arr[this[0]];  
+            for(var i = 1; i < this.length; i++){    //从数组第二项开始循环遍历数组  
+                //判断相邻两个元素是否相等，如果相等说明数据重复，否则将元素写入结果数组  
+                if(this[i] !== arr[arr.length - 1]){  
+                    arr.push(this[i]);  
+                }              
+            }  
+            return arr;  
+              
+        }  
+```
+
