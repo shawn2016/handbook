@@ -38,5 +38,6 @@
   * [forEach，for-in，for-of](qian-duan-mian-shi/foreachfor-infor-of.md)
   * [Js中去除数组中重复元素的4种方法](qian-duan-mian-shi/jszhong-qu-chu-shu-zu-zhong-zhong-fu-yuan-su-de-4-zhong-fang-fa.md)
   * [Set和Map数据结构](qian-duan-mian-shi/sethe-map-shu-ju-jie-gou.md)
+  * [JavaScript-电话面试](qian-duan-mian-shi/javascriptdian-hua-mian-shi.md)
 * mongoose学习
 
