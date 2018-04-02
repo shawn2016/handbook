@@ -41,5 +41,6 @@
   * [JavaScript-电话面试](qian-duan-mian-shi/javascriptdian-hua-mian-shi.md)
   * [理解 async/await](qian-duan-mian-shi/li-jie-async-await.md)
   * [generator](qian-duan-mian-shi/generator.md)
+  * [箭头函数](qian-duan-mian-shi/jian-tou-han-shu.md)
 * mongoose学习
 
