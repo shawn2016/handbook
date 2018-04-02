@@ -102,3 +102,5 @@ Employee.prototype = person;
 
 var emp = new Employee('keepfool@xxx.com');
 ```
+
+现在我们就可以访问emp.name和emp.sayHello()方法了。
