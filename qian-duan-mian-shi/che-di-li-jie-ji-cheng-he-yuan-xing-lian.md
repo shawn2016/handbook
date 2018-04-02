@@ -144,5 +144,13 @@ var emp = new Employee('keepfool@xxx.com');
 
 下面这幅图概括了实现Employee继承Person的过程：
 
+![](https://images2015.cnblogs.com/blog/341820/201606/341820-20160610071725355-1020928779.png)
+
+**name和sayHello\(\)不是Employee类的自有属性和方法，它来源于Employee.prototype。**
+
+而Employee.prototype指向一个Person的实例，这个实例是能够访问name和sayHello\(\)的。
+
+![](https://images2015.cnblogs.com/blog/341820/201606/341820-20160610071726402-523240670.png)
+
 
 
