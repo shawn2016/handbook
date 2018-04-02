@@ -154,3 +154,13 @@ var emp = new Employee('keepfool@xxx.com');
 
 
 
+## 原型继承的本质
+
+**JavaScript的原型继承的本质：将构造函数的原型对象指向由另外一个构造函数创建的实例。**
+
+这行代码`Employee.prototype = new Person()`描述的就是这个意思。
+现在我们可以说**Employee()构造函数继承了Person()构造函数。**
+
+用一句话概括这个继承实现的过程：
+
+Employee()构造函数的原型引用了一个由Person()构造函数创建的实例，从而建立了Employee()和Person()的继承关系。
