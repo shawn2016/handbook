@@ -1,6 +1,6 @@
 # 理解 async/await
 
-`async`函数是`Generator`函数的语法糖。
+`async`函数是`Generator`函数的语法糖。\(async await就是Generator自动执行的语法糖\)
 
 想较于 Generator，`Async` 函数的改进在于下面四点：
 
@@ -22,7 +22,6 @@ sayHi().then(result=> {
 }).catch(err=> {
     console.log(err.message);   //出错了
 });
-
 ```
 
 await等待的虽然是promise对象，但不必写`.then(..)`，直接可以得到返回值。
