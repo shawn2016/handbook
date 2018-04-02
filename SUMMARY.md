@@ -40,5 +40,6 @@
   * [Set和Map数据结构](qian-duan-mian-shi/sethe-map-shu-ju-jie-gou.md)
   * [JavaScript-电话面试](qian-duan-mian-shi/javascriptdian-hua-mian-shi.md)
   * [理解 async/await](qian-duan-mian-shi/li-jie-async-await.md)
+  * [generator](qian-duan-mian-shi/generator.md)
 * mongoose学习
 
