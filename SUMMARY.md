@@ -42,5 +42,6 @@
   * [理解 async/await](qian-duan-mian-shi/li-jie-async-await.md)
   * [generator](qian-duan-mian-shi/generator.md)
   * [箭头函数](qian-duan-mian-shi/jian-tou-han-shu.md)
+  * [彻底理解继承和原型链](qian-duan-mian-shi/che-di-li-jie-ji-cheng-he-yuan-xing-lian.md)
 * mongoose学习
 
