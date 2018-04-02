@@ -44,5 +44,6 @@
   * [箭头函数](qian-duan-mian-shi/jian-tou-han-shu.md)
   * [彻底理解继承和原型链](qian-duan-mian-shi/che-di-li-jie-ji-cheng-he-yuan-xing-lian.md)
   * [用原生js实现一个new方法](qian-duan-mian-shi/yong-yuan-sheng-js-shi-xian-yi-ge-new-fang-fa.md)
+  * [JS继承的实现方式](qian-duan-mian-shi/jsji-cheng-de-shi-xian-fang-shi.md)
 * mongoose学习
 
