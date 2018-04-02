@@ -190,10 +190,9 @@ emp对象看起来不像是Employee\(\)构造函数创建的，而是Person\(\)�
 这不是我们期望的，我们希望emp对象看起来也是由Employee\(\)构造函数创建的，即emp.constructor应该是指向Employee\(\)构造函数的。  
 要解决这个问题，我们先弄清楚对象的constructor属性是从哪儿来的，知道它是从哪儿来的就知道为什么emp.constructor被改写了。
 
-  
 constructor属性的来源
 
-**当我们没有改写构造函数的原型对象时，constructor属性是构造函数原型对象的自有属性。  
+**当我们没有改写构造函数的原型对象时，constructor属性是构造函数原型对象的自有属性。    
 **例如：Person\(\)构造函数的原型没有改写，constructor是Person.prototype的自有属性。
 
 ![](https://images2015.cnblogs.com/blog/341820/201606/341820-20160610071732027-2077474323.png)
@@ -253,4 +252,14 @@ Employee.prototype.constructor = Employee;
 ```
 
 你可以尝试从C\#的角度去理解，在C\#中Employee类的实例肯定是由Employee类的构造函数创建出来的。
+
+```
+Student.prototype = Person.prototype; //改变了student的同时也会改变person
+ //Student.prototype = new Person();//这样的继承方式传值不太好
+ // Student.prototype = Object.create(Person.prototype);//理想化的继承方式，创建了一个空对象并且将原型指向了Person.prototype
+ // console.log(Student.prototype)
+ // Student.prototype.constructor = Student;
+```
+
+
 
