@@ -152,15 +152,105 @@ var emp = new Employee('keepfool@xxx.com');
 
 ![](https://images2015.cnblogs.com/blog/341820/201606/341820-20160610071726402-523240670.png)
 
-
-
 ## 原型继承的本质
 
 **JavaScript的原型继承的本质：将构造函数的原型对象指向由另外一个构造函数创建的实例。**
 
-这行代码`Employee.prototype = new Person()`描述的就是这个意思。
-现在我们可以说**Employee()构造函数继承了Person()构造函数。**
+这行代码`Employee.prototype = new Person()`描述的就是这个意思。  
+现在我们可以说**Employee\(\)构造函数继承了Person\(\)构造函数。**
 
 用一句话概括这个继承实现的过程：
 
-Employee()构造函数的原型引用了一个由Person()构造函数创建的实例，从而建立了Employee()和Person()的继承关系。
+Employee\(\)构造函数的原型引用了一个由Person\(\)构造函数创建的实例，从而建立了Employee\(\)和Person\(\)的继承关系。
+
+# 再谈constructor
+
+## 对象的constructor属性
+
+上一篇文章有提到过，**每个对象都有constructor属性，constructor属性应该指向对象的构造函。**  
+例如：Person实例的constructor属性是指向Person\(\)构造函数的。
+
+```
+var person = new Person();
+```
+
+![](https://images2015.cnblogs.com/blog/341820/201606/341820-20160610071728668-419878531.png)
+
+在未设置Employee.prototype时，emp对象的构造函数原本也是指向Employee\(\)构造函数的。
+
+![](https://images2015.cnblogs.com/blog/341820/201606/341820-20160610071729527-1326466155.png)
+
+当设置了`Employee.prototype = new Person();`时，emp对象的构造函数却指向了Person\(\)构造函数。
+
+![](https://images2015.cnblogs.com/blog/341820/201606/341820-20160610071730496-329429816.png)
+
+无形之中，emp.constructor被改写了。  
+emp对象看起来不像是Employee\(\)构造函数创建的，而是Person\(\)构造函数创建的。
+
+这不是我们期望的，我们希望emp对象看起来也是由Employee\(\)构造函数创建的，即emp.constructor应该是指向Employee\(\)构造函数的。  
+要解决这个问题，我们先弄清楚对象的constructor属性是从哪儿来的，知道它是从哪儿来的就知道为什么emp.constructor被改写了。
+
+  
+constructor属性的来源
+
+**当我们没有改写构造函数的原型对象时，constructor属性是构造函数原型对象的自有属性。  
+**例如：Person\(\)构造函数的原型没有改写，constructor是Person.prototype的自有属性。
+
+![](https://images2015.cnblogs.com/blog/341820/201606/341820-20160610071732027-2077474323.png)
+
+**当我们改写了构造函数的原型对象后，constructor属性就不是构造函数原型对象的自有属性了。**
+
+例如：Employee\(\)构造函数的原型被改写后，constructor就不是Person.prototype的自有属性了。
+
+![](https://images2015.cnblogs.com/blog/341820/201606/341820-20160610071732902-1904980252.png)
+
+Employee.prototype的constructor属性是指向Person\(\)构造函数的。
+
+![](https://images2015.cnblogs.com/blog/341820/201606/341820-20160610071733761-1166814882.png)
+
+这说明：**当对象被创建时，对象本身没有constructor属性，而是来源于创建对象的构造函数的原型对象。**
+
+即当我们访问emp.constructor时，实际访问的是Employee.prototype.constructor，Employee.prototype.constructor实际引用的是Person\(\)构造函数，person.constructor引用是Person\(\)构造函数，Person\(\)构造函数实际上是Person.prototype.constructor。
+
+这个关系有点乱，我们可以用以下式子来表示这个关系：
+
+```
+emp.constructor = person.constructor = Employee.prototype.constructor = Person = Person.prototype.constructor
+```
+
+**它们最终都指向Person.prototype.constructor！**
+
+## 改写原型对象的constructor
+
+弄清楚了对象的constructor属性的来弄去脉，上述问题就好解决了。  
+解决办法就是让**Employee.prototype.constructor指向Employee\(\)构造函数。**
+
+```
+var o = {};
+
+function Person() {
+    this.name = 'keefool';
+    this.sayHello = function() {
+        return 'Hello, I am ' + this.name;
+    }
+}
+function Employee(email) {
+    this.email = email;
+}
+
+Employee.prototype = new Person();
+Employee.prototype.constructor = Employee;
+
+var emp = new Employee('keepfool@xxx.com');
+```
+
+![](https://images2015.cnblogs.com/blog/341820/201606/341820-20160610071734636-2097881172.png)
+
+如果你还是不能理解关键的这行代码：
+
+```
+Employee.prototype.constructor = Employee;
+```
+
+你可以尝试从C\#的角度去理解，在C\#中Employee类的实例肯定是由Employee类的构造函数创建出来的。
+
