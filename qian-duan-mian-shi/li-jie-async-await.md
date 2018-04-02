@@ -11,7 +11,25 @@
 
 async用于定义一个异步函数，该函数返回一个Promise。
 
+### async函数的异常
 
+```
+let sayHi = async functionsayHi(){
+    throw new Error('出错了');
+}
+sayHi().then(result=> {
+  console.log(result);
+}).catch(err=> {
+    console.log(err.message);   //出错了
+});
 
+```
 
+await等待的虽然是promise对象，但不必写`.then(..)`，直接可以得到返回值。
+
+既然`.then(..)`不用写了，那么`.catch(..)`也不用写，可以直接用标准的`try catch`语法捕捉错误。
+
+await看起来就像是同步代码，所以可以理所当然的写在`for`循环里，不必担心以往需要`闭包`才能解决的问题。
+
+值得注意的是，`await`必须在`async函数的上下文中`的。
 
