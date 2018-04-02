@@ -107,17 +107,15 @@ var emp = new Employee('keepfool@xxx.com');
 
 ![](https://images2015.cnblogs.com/blog/341820/201606/341820-20160610071723355-1789598776.png)
 
-
-
 在Chrome控制台，使用instanceof操作符，可以看到emp对象现在已经是Person类的实例了。
 
 ![](https://images2015.cnblogs.com/blog/341820/201606/341820-20160610071724355-791458085.png)
 
 ### 这是如何实现的？
 
-- Employee.prototype是一个引用类型，它指向一个Person类的一个实例person。
-- person对象恰恰是有name属性和sayHello()方法的，访问Employee.prototype就像访问person对象一样。
-- 访问emp.name和emp.sayHello()时，实际访问的是Employee.prototype.name和Employee.prototype.sayHello()，最终访问的是person.name和person.sayHello()。
+* Employee.prototype是一个引用类型，它指向一个Person类的一个实例person。
+* person对象恰恰是有name属性和sayHello\(\)方法的，访问Employee.prototype就像访问person对象一样。
+* 访问emp.name和emp.sayHello\(\)时，实际访问的是Employee.prototype.name和Employee.prototype.sayHello\(\)，最终访问的是person.name和person.sayHello\(\)。
 
 如果你对这段代码还是有所疑惑，你可以这么理解：
 
@@ -145,3 +143,6 @@ var emp = new Employee('keepfool@xxx.com');
 ```
 
 下面这幅图概括了实现Employee继承Person的过程：
+
+
+
