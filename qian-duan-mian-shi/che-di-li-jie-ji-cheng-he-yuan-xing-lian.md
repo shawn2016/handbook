@@ -1,5 +1,7 @@
 ## 彻底理解继承和原型链
 
+原文链接：[http://www.cnblogs.com/keepfool/p/5573121.html](http://www.cnblogs.com/keepfool/p/5573121.html)
+
 ### 继承的目的
 
 ##### 实现继承的目的是什么？当然是让子类能够使用基类的属性和方法。
@@ -192,7 +194,7 @@ emp对象看起来不像是Employee\(\)构造函数创建的，而是Person\(\)�
 
 constructor属性的来源
 
-**当我们没有改写构造函数的原型对象时，constructor属性是构造函数原型对象的自有属性。    
+**当我们没有改写构造函数的原型对象时，constructor属性是构造函数原型对象的自有属性。      
 **例如：Person\(\)构造函数的原型没有改写，constructor是Person.prototype的自有属性。
 
 ![](https://images2015.cnblogs.com/blog/341820/201606/341820-20160610071732027-2077474323.png)
