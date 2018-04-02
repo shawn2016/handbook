@@ -36,8 +36,8 @@ var emp = new Employee('keepfool@xxx.com');
 
 **通过原型实现继承。**
 
-当我们定义函数时，JavaScript会自动的为函数分配一个prototype属性。
-Person()也是一个函数，那么Person()函数也会有prototype属性，即Person.prototype。
+当我们定义函数时，JavaScript会自动的为函数分配一个prototype属性。  
+Person\(\)也是一个函数，那么Person\(\)函数也会有prototype属性，即Person.prototype。
 
 ```
 function Person() {
@@ -45,7 +45,7 @@ function Person() {
     this.sayHello = function() {
         return 'Hello, I am ' + this.name;
     }
-}	
+}    
 
 // 定义了函数后，JavaScript自动地为Person()函数分配了一个prototype属性
 // Person.prototype = {};
@@ -65,11 +65,11 @@ Person.prototype.height = 176;
 
 var person = new Person();
 // 访问Person.prototype上定义的属性
-person.height;	// 输出176
+person.height;    // 输出176
 ```
 
-同理在Employee.prototype上定义的属性和方法，也可以被Employee类的实例使用。
-咱们的目的是让Employee的实例能够访问name属性和sayHello()方法，如果没有Person()构造函数，咱们是这么做的：
+同理在Employee.prototype上定义的属性和方法，也可以被Employee类的实例使用。  
+咱们的目的是让Employee的实例能够访问name属性和sayHello\(\)方法，如果没有Person\(\)构造函数，咱们是这么做的：
 
 ```
 function Employee(email) {
@@ -83,7 +83,7 @@ Employee.prototype = {
 }
 ```
 
-既然Person()构造函数已经定义了name和sayHello()，我们就不必这么做了。
+既然Person\(\)构造函数已经定义了name和sayHello\(\)，我们就不必这么做了。  
 怎么做呢？**让Employee.prototype指向一个Person类的实例。**
 
 ```
@@ -103,4 +103,17 @@ Employee.prototype = person;
 var emp = new Employee('keepfool@xxx.com');
 ```
 
-现在我们就可以访问emp.name和emp.sayHello()方法了。
+现在我们就可以访问emp.name和emp.sayHello\(\)方法了。
+
+![](https://images2015.cnblogs.com/blog/341820/201606/341820-20160610071723355-1789598776.png)
+
+
+
+在Chrome控制台，使用instanceof操作符，可以看到emp对象现在已经是Person类的实例了。
+
+![](https://images2015.cnblogs.com/blog/341820/201606/341820-20160610071724355-791458085.png)
+
+## 这是如何实现的？
+
+
+
