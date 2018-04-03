@@ -47,7 +47,7 @@ Javascript语言将任务的执行模式分成两种：同步（Synchronous）�
 4. class类
 5. 模板字符串
 6. 默认函数参数
-7.  Rest
+7. Rest
 8. 解构
 9. Promise
 
@@ -204,3 +204,4 @@ Person.prototype = {
 **Person.prototype.constructor === Person**
 
 ### 几种保持登录状态的方式
+
