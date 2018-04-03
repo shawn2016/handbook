@@ -19,7 +19,10 @@
 
 ### 说一说移动端的布局。 flexible。
 
+手机淘宝从2014年中开始，全面推行flexible设计。什么叫flexible呢？其实flexible就是responsive的低端形态和基础。
 
+手机淘宝用JS来动态写meta标签，手机淘宝的flexible方案是综合运用rem和px两种单位+js设置scale和html字体。
+我们可以在[GitHub](https://link.jianshu.com?t=https://github.com/amfe/lib-flexible)上找到这个项目，可以通过网上查阅资料了解更多。
 
   
 
