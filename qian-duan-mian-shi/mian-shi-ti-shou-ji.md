@@ -203,3 +203,4 @@ Person.prototype = {
 
 **Person.prototype.constructor === Person**
 
+# [几种保持登录状态的方式](http://www.cnblogs.com/-new/p/6960901.html)
