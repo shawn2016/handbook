@@ -206,3 +206,15 @@ Person.prototype = {
 ### 几种保持登录状态的方式
 
 https://www.cnblogs.com/-new/p/6960901.html
+
+### React&vue的区别
+
+Vue宣称可以[更快地计算出Virtual DOM的差异](https://vuejs.org/v2/guide/comparison.html#Performance)，这是由于它在渲染过程中，会跟踪每一个组件的依赖关系，不需要重新渲染整个组件树。[·](http://caibaojian.com/vue-vs-react.html)
+
+而对于React而言，[每当应用的状态被改变时](https://facebook.github.io/react/docs/react-component.html#shouldcomponentupdate)，全部子组件都会重新渲染。当然，这可以通过`shouldComponentUpdate`这个生命周期方法来进行控制，但Vue将此视为[默认的优化](https://vuejs.org/v2/guide/comparison.html#Optimization-Efforts)。
+
+###### 模板 vs JSX
+
+###### 状态管理 vs 对象属性
+
+在Vue中，state对象并不是必须的，数据由data属性在Vue对象中进行管理。
