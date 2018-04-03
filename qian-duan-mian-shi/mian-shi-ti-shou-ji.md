@@ -180,3 +180,26 @@ console.log(myObj.age);     //24
 
 ### 说一说原型链
 
+https://www.cnblogs.com/zhengsongjun/p/7657608.html
+
+#### **原型对象**
+
+在javascript中，每当定义一个对象（函数也是对象），对象都会包含一些预定义的属性，其中每个函数对象都有一个prototype属性，这个属性指向函数的原型对象，所以反过来粗暴一点说，原型对象就是函数的prototype这个属性所指的对象，函数的对象的prototype的属性就是这个函数的原型对象。
+
+```
+Person.prototype = {
+   name:  'Zaxlct',
+   age: 28,
+   job: 'Software Engineer',
+   sayName: function() {
+     alert(this.name);
+   }
+}
+```
+
+这就是原型对象，明白吗，然后我们给这个原型对象添加很多很多的属性和sayName这个方法，当然，他还有一个对象constructor
+
+ 默认情况下，所有的原型对象，都会自动获得一个constructor(构造函数)这个属性，这个属性是一个指针，指向prototype属性所在的函数Person!
+
+**Person.prototype.constructor === Person**
+
