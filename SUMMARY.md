@@ -19,6 +19,7 @@
   * [vue-source](vue-tutorial/vue-source.md)
     * [理解Object.defineProperty的作用](vue-tutorial/vue-source/li-jieobject-defineproperty-de-zuo-yong.md)
     * [响应式原理](vue-tutorial/vue-source/xiang-ying-shi-yuan-li.md)
+    * [原型VSclass](vue-tutorial/vue-source/yuan-xing-vsclass.md)
 * [react-tutorial](react-tutorial.md)
 * [angular-tutorial](angular-tutorial.md)
 * [other](other.md)
