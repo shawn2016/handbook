@@ -16,6 +16,8 @@
   * [vue-document](vue-tutorial/vue-document.md)
     * [介绍](vue-tutorial/vue-document/jie-shao.md)
     * [Class 与 Style 绑定](vue-tutorial/vue-document/class-yu-style-bang-ding.md)
+  * [vue-source](vue-tutorial/vue-source.md)
+    * [理解Object.defineProperty的作用](vue-tutorial/vue-source/li-jieobject-defineproperty-de-zuo-yong.md)
 * [react-tutorial](react-tutorial.md)
 * [angular-tutorial](angular-tutorial.md)
 * [other](other.md)
