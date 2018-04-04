@@ -1,4 +1,6 @@
-### 原文链接：https://segmentfault.com/a/1190000006599500 {#articleHeader0}
+### 原文链接：[https://segmentfault.com/a/1190000006599500](https://segmentfault.com/a/1190000006599500) {#articleHeader0}
+
+### [http://hcysun.me/2017/03/03/Vue%E6%BA%90%E7%A0%81%E5%AD%A6%E4%B9%A0](http://hcysun.me/2017/03/03/Vue%E6%BA%90%E7%A0%81%E5%AD%A6%E4%B9%A0) {#articleHeader0}
 
 ### 几种实现双向绑定的做法 {#articleHeader0}
 
