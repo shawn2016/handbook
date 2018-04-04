@@ -1,3 +1,5 @@
+原文链接：[https://segmentfault.com/a/1190000003798438\#articleHeader12](https://segmentfault.com/a/1190000003798438#articleHeader12)
+
 类实现：
 
     class User {
@@ -5,12 +7,12 @@
         this.firstName = firstName
         this.lastName = lastName
       }
-    
+
       fullName() {
         return `${this.firstName} ${this.lastName}`
       }
     }
-    
+
     let user = new User('David', 'Chen')
     user.fullName()  // David Chen
 
@@ -78,3 +80,4 @@ b.length  // 0
 如果说语法糖可以用 Babel.js 这种 transpiler 去编译成 ES5 解决 ，扩充的 API 可以用 polyfill 解决，但是这种内建类的继承机制显然是需要浏览器支持的。而目前唯一支持这个特性的浏览器是………… Microsoft Edge 。
 
 好在这并不是什么致命的问题。大多数此类需求都可以用封装类去解决，无非是多写一点 wrapper API 而已。而且个人认为封装和组合反而是比继承更灵活的解决方案。
+
