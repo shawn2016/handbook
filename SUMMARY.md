@@ -52,6 +52,7 @@
   * [JS继承的实现方式](qian-duan-mian-shi/jsji-cheng-de-shi-xian-fang-shi.md)
   * [面试题收集](qian-duan-mian-shi/mian-shi-ti-shou-ji.md)
   * [伪类和伪元素的区别](qian-duan-mian-shi/wei-lei-he-wei-yuan-su-de-qu-bie.md)
+  * [几种常用的清除浮动方法](qian-duan-mian-shi/ji-zhong-chang-yong-de-qing-chu-fu-dong-fang-fa.md)
 * mongoose学习
 * [node-tutorial](node-tutorial.md)
 
