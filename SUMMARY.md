@@ -51,6 +51,7 @@
   * [用原生js实现一个new方法](qian-duan-mian-shi/yong-yuan-sheng-js-shi-xian-yi-ge-new-fang-fa.md)
   * [JS继承的实现方式](qian-duan-mian-shi/jsji-cheng-de-shi-xian-fang-shi.md)
   * [面试题收集](qian-duan-mian-shi/mian-shi-ti-shou-ji.md)
+  * [伪类和伪元素的区别](qian-duan-mian-shi/wei-lei-he-wei-yuan-su-de-qu-bie.md)
 * mongoose学习
 * [node-tutorial](node-tutorial.md)
 
