@@ -12,3 +12,5 @@ HTTP状态码（HTTP Status Code）是一种表示网页服务器响应状态的
 
 5开头表示服务器错误。
 
+[http://tool.oschina.net/commons?type=5](http://tool.oschina.net/commons?type=5)
+
