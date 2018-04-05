@@ -1,6 +1,6 @@
 ### css盒子模型
 
-包含了content,padding,border,margin=
+包含了content,padding,border,margin
 
 这些基本的比如比如哪儿是content大家都了解我就说了在设置width = 300px时代表的是content的宽度那么最终的宽度是content+padding+border+margin.
 
