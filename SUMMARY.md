@@ -54,6 +54,7 @@
   * [伪类和伪元素的区别](qian-duan-mian-shi/wei-lei-he-wei-yuan-su-de-qu-bie.md)
   * [几种常用的清除浮动方法](qian-duan-mian-shi/ji-zhong-chang-yong-de-qing-chu-fu-dong-fang-fa.md)
   * [HTTP状态码](qian-duan-mian-shi/httpzhuang-tai-ma.md)
+  * [Web前端应该从哪些方面来优化网站?](qian-duan-mian-shi/webqian-duan-ying-gai-cong-na-xie-fang-mian-lai-you-hua-wang-7ad93f.md)
 * mongoose学习
 * [node-tutorial](node-tutorial.md)
 
