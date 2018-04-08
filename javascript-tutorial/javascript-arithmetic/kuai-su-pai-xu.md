@@ -5,21 +5,25 @@
 3. 对”基准”左边和右边的两个子集，不断重复第一步和第二步，直到所有子集只剩下一个元素为止。
 
 ```js
-function quickSort(arr){
-        if (arr.length <= 1){return arr};
-        var pivotIndex = Math.floor(arr.length / 2);
-        var pivot = arr.splice(pivotIndex,1)[0];
-        var left = [];
-        var right = [];
-        for (var i = 0; i < arr.length; i++){
-            if(arr[i] < pivot) {
-                left.push(arr[i]);
-            }else{
-                right.push(arr[i]);
-            }
+function quickSort(arr) {
+    if (arr.length <= 1) { return arr };
+    var pivotIndex = Math.floor(arr.length / 2);
+    var pivot = arr.splice(pivotIndex, 1)[0];
+    var left = [];
+    var right = [];
+    for (var i = 0; i < arr.length; i++) {
+        if (arr[i] < pivot) {
+            left.push(arr[i]);
+        } else {
+            right.push(arr[i]);
         }
-        return quickSort(left).concat([pivot],quickSort(right));
     }
+    return quickSort(left).concat([pivot], quickSort(right));
+}
+//测试
+var testArr = [72, 54, 58, 30, 31, 78, 2, 77, 82, 72];
+quickSort(testArr);
+console.log(testArr); //输出2,30,31,54,58,72,72,77,78,82
 ```
 
 
