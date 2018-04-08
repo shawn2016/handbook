@@ -120,20 +120,20 @@ map\(\)对数组的每个元素进行一定操作（映射）后，会返回一�
 
 ```
 var oldArr = [{first_name:"Colin",last_name:"Toh"},{first_name:"Addy",last_name:"Osmani"},{first_name:"Yehuda",last_name:"Katz"}];
- 
+
 function getNewArr(){
-   
+
   var newArr = [];
-   
+
   for(var i= 0, l = oldArr.length; i< l; i++){
     var item = oldArr[i];
     item.full_name = [item.first_name,item.last_name].join(" ");
     newArr[i] = item;
   }
-   
+
   return newArr;
 }
- 
+
 console.log(getNewArr());
 ```
 
@@ -141,16 +141,16 @@ console.log(getNewArr());
 
 ```
 var oldArr = [{first_name:"Colin",last_name:"Toh"},{first_name:"Addy",last_name:"Osmani"},{first_name:"Yehuda",last_name:"Katz"}];
- 
+
 function getNewArr(){
-     
+
   return oldArr.map(function(item,index){
     item.full_name = [item.first_name,item.last_name].join(" ");
     return item;
   });
-   
+
 }
- 
+
 console.log(getNewArr());
 ```
 
@@ -166,18 +166,18 @@ reduce\(\)可以实现一个累加器的功能，将数组的每个值（从左�
 
 ```
 var arr = ["apple","orange","apple","orange","pear","orange"];
- 
+
 function getWordCnt(){
   var obj = {};
-   
+
   for(var i= 0, l = arr.length; i< l; i++){
     var item = arr[i];
     obj[item] = (obj[item] +1 ) || 1;
   }
-   
+
   return obj;
 }
- 
+
 console.log(getWordCnt());
 ```
 
@@ -185,14 +185,14 @@ console.log(getWordCnt());
 
 ```
 var arr = ["apple","orange","apple","orange","pear","orange"];
- 
+
 function getWordCnt(){
   return arr.reduce(function(prev,next){
     prev[next] = (prev[next] + 1) || 1;
     return prev;
   },{});
 }
- 
+
 console.log(getWordCnt());
 ```
 
@@ -206,14 +206,14 @@ console.log(getWordCnt());
 /*
 * 二者的区别，在console中运行一下即可知晓
 */
- 
+
 var arr = ["apple","orange"];
- 
+
 function noPassValue(){
   return arr.reduce(function(prev,next){
     console.log("prev:",prev);
     console.log("next:",next);
-     
+
     return prev + " " +next;
   });
 }
@@ -221,18 +221,16 @@ function passValue(){
   return arr.reduce(function(prev,next){
     console.log("prev:",prev);
     console.log("next:",next);
-     
+
     prev[next] = 1;
     return prev;
   },{});
 }
- 
+
 console.log("No Additional parameter:",noPassValue());
 console.log("----------------");
 console.log("With {} as an additional parameter:",passValue());
 ```
-
-
 
 
 
