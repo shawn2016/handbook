@@ -30,7 +30,7 @@ function bubbleSort(arr){
  //测试
  var testArr = [72,54,58,30,31,78,2,77,82,72];
  bubbleSort(testArr);
- console.log(testArr); //输出1,22,25,35,56,88
+ console.log(testArr); //输出2,30,31,54,58,72,72,77,78,82
 ```
 
 ![](/assets/import.png)
