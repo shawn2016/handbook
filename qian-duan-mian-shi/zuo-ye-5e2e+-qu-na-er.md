@@ -59,7 +59,7 @@ var emp = new Employee('keepfool@xxx.com');
 
 1. 平时用到了那些算法，说一下有哪些，并可以手写出来
 
-1. vue中methods和computer的区别.
+2. vue中methods和computer的区别.
 
 ```
 http://www.jb51.net/article/120073.htm
@@ -163,7 +163,11 @@ arr.every(function(value){                 // false
 3. vue nexttick知道吗？
 4. Async await 用过吗？怎么使用？
 
-好未来公司
+### 好未来公司
+
+#### 一面：
+
+
 
 1. amd，cmd,common,es6模块规范
 2. html5 新标签
