@@ -58,6 +58,7 @@
   * [你不知道的javascript之Object.create 和new区别](qian-duan-mian-shi/ni-bu-zhi-dao-de-javascript-zhi-object-create-he-new-qu-bie.md)
   * [get和post区别？](qian-duan-mian-shi/gethe-post-qu-bie-ff1f.md)
   * [作业帮+去哪儿](qian-duan-mian-shi/zuo-ye-5e2e+-qu-na-er.md)
+  * [es6 数组实例的 entries\(\) ， keys\(\) 和 values\(\)](qian-duan-mian-shi/es6-shu-zu-shi-li-de-entries-keys-he-values.md)
 * mongoose学习
 * [node-tutorial](node-tutorial.md)
 
