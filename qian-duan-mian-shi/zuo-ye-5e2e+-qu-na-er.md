@@ -2,6 +2,7 @@
 2. 闭包的作用和缺点
 
 3. $.fn.extend与$.extend的区别
+
 4. 说一下常用的es6语法
 
 ```
@@ -58,7 +59,6 @@ var emp = new Employee('keepfool@xxx.com');
 
 1. 平时用到了那些算法，说一下有哪些，并可以手写出来
 
-
 1. vue中methods和computer的区别.
 
 ```
@@ -76,7 +76,7 @@ watch和computed各自处理的数据关系场景不同
 6. 特殊要求，线上代码有问题，需要立马回滚，怎么做？
 7. 一个文件需要输入和压缩或者编译后需要怎么做？（webpack）
 8. plugins是干嘛的，有哪些常用的插件。
-9. 怎么去掉字符串的重复项https://blog.csdn.net/admin_yi/article/details/54925440 split+正则
+9. 怎么去掉字符串的重复项[https://blog.csdn.net/admin\_yi/article/details/54925440](https://blog.csdn.net/admin_yi/article/details/54925440) split+正则
 
 ```
 var a="aaAAcRfR";
@@ -109,7 +109,7 @@ some() 方法测试该数组有元素通过了指定函数的测试，如果有�
 every() 方法测试该数组是否全部通过指定函数测试，全部通过返回true，否则，返回false。
 
 
- 
+
 
 forEach 遍历数组
 var arr = ["a", "b", "c"];
@@ -119,13 +119,13 @@ arr.forEach(function(element,index) {
 
 map 返回新数组，为当前元素加字符串m
 var arr = ["a", "b", "c"];
- 
+
 arr.map(function(element,index) {
     return element += "m";
 });
- 
+
 // 将给定数组的元素转成整数
- 
+
 ["1", "2", "3"].map(parseInt);         // [1, NaN, NaN]
 // 等价于
 ["1", "2", "3"].map(function(value,index,array){
@@ -141,7 +141,7 @@ arr.filter(function(value){
 });
 // 等价于
 arr.filter((value)=>value>10);
- 
+
  var result = arr.reduce(function(prev,next){
    return prev+next
  })
@@ -158,9 +158,16 @@ arr.every(function(value){                 // false
 });
 ```
 
-
-
 1. vue-router的实现原理看了吗？两种模式怎么设置
 2. promise解决了什么问题?
 3. vue nexttick知道吗？
 4. Async await 用过吗？怎么使用？
+
+好未来公司
+
+1. amd，cmd,common,es6模块规范
+2. html5 新标签
+3. 实现一个动画波浪线（css3）
+4. 
+
+
