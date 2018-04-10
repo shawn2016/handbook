@@ -180,30 +180,36 @@ arr.every(function(value){                 // false
 #### 一面：
 
 1. amd，cmd,common,es6模块规范
-2. html5 新标签
+2. html5 新标签有哪些？
 3. 实现一个圆+三角形（css）
 4. 实现一个动画波浪线（css3）
 5. 基本数据类型
 6. 写一个方法，输入120，输出02:00,输入121，输出02:01
 7. dva
-8. canvas的使用
-9. vedio的使用，支持哪些格式，怎么监控vedio的卡顿
-10. express require req.body req.param req.query
-11. 怎么写一个中间件
-12. nuxt.js
-13. 前端优化有哪些？
-14. 1,'1','',null.\[\],{}用true和false表示他们
-15. 说一下内存泄露和垃圾回收机制
-16. localstorage存入一个1，获取的时候返回是1，是什么类型？
-17. localstorage，cookie，sessionstorage的区别
-18. 怎么设置cookie的有效期
-19. 上传文件做过吗？预览做过吗？怎么实现？
-20. 1px 处理 安卓和ios的处理
-21. 写一个手机号码的正则？
-22. 手写一个不定宽盒子居中
-23. flex使用过吗？怎么实现？怎么实现30%+40%+30%
-24. es6有哪些东西？
-25. 怎么让异步的函数变成同步的？
+8. promise是解决什么问题
+9. canvas的使用
+10. vedio的使用，支持哪些格式，怎么监控vedio的卡顿
+11. express require req.body req.param req.query
+12. 怎么写一个中间件
+13. nuxt.js
+14. 前端优化有哪些？
+15. 1,'1','',null.\[\],{}用true和false表示他们
+16. 说一下内存泄露和垃圾回收机制
+17. localstorage存入一个1，获取的时候返回是1，是什么类型？
+18. localstorage，cookie，sessionstorage的区别
+19. 怎么设置cookie的有效期
+20. 上传文件做过吗？预览做过吗？怎么实现？
+21. 1px 处理 安卓和ios的处理
+22. 写一个手机号码的正则？
+23. 手写一个不定宽盒子居中？
+24. flex使用过吗？怎么实现三等分？怎么实现30%+40%+30%
+25. es6有哪些东西？
+26. 怎么让异步的函数变成同步的？
+27. react native 安卓与ios
+28. ios怎么取消点按选中的效果
+29. webpack的一些配置有哪些？
+30. 说一下loader和plugins的区别
+31. Ie8
 
 
 
