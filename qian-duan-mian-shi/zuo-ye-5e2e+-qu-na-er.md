@@ -162,16 +162,45 @@ arr.every(function(value){                 // false
 2. promise解决了什么问题?
 3. vue nexttick知道吗？
 4. Async await 用过吗？怎么使用？
+5. 怎么解决express的回调
+
+### 唯乐屋
+
+1. 手写一个东升日落的效果
+2. vue-router的实现原理
+3. 字符串转数组，数组转字符串的方法（三种方法）
+4. less、sass有哪些东西
+5. 说一下变量提升？
+6. es6有哪些东西？
 
 ### 好未来公司
 
 #### 一面：
 
-
-
 1. amd，cmd,common,es6模块规范
 2. html5 新标签
-3. 实现一个动画波浪线（css3）
-4. 
+3. 实现一个圆+三角形（css）
+4. 实现一个动画波浪线（css3）
+5. 基本数据类型
+6. 写一个方法，输入120，输出02:00,输入121，输出02:01
+7. dva
+8. canvas的使用
+9. vedio的使用，支持哪些格式，怎么监控vedio的卡顿
+10. express require req.body req.param req.query
+11. 怎么写一个中间件
+12. nuxt.js
+13. 前端优化有哪些？
+14. 1,'1','',null.[],{}用true和false表示他们
+15. 说一下内存泄露和垃圾回收机制
+16. localstorage存入一个1，获取的时候返回是1，是什么类型？
+17. localstorage，cookie，sessionstorage的区别
+18. 怎么设置cookie的有效期
+19. 上传文件做过吗？预览做过吗？怎么实现？
+20. 1px 处理 安卓和ios的处理
+21. 写一个手机号码的正则？
+22. 手写一个不定宽盒子居中
+23. flex使用过吗？怎么实现？怎么实现30%+40%+30%
+24. es6有哪些东西？
+25. 怎么让异步的函数变成同步的？
 
 
