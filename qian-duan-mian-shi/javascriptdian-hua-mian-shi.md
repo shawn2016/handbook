@@ -1,11 +1,7 @@
-
-
 ```
 typeof 返回值有哪些？
 number, boolean, string, undefined, object, function，symbol
 ```
-
-
 
 区分对象和数组的方法
 
