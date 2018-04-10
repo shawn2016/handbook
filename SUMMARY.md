@@ -59,6 +59,7 @@
   * [get和post区别？](qian-duan-mian-shi/gethe-post-qu-bie-ff1f.md)
   * [作业帮+去哪儿](qian-duan-mian-shi/zuo-ye-5e2e+-qu-na-er.md)
   * [es6 数组实例的 entries\(\) ， keys\(\) 和 values\(\)](qian-duan-mian-shi/es6-shu-zu-shi-li-de-entries-keys-he-values.md)
+  * [ES6数组对象新增方法](qian-duan-mian-shi/es6shu-zu-dui-xiang-xin-zeng-fang-fa.md)
 * mongoose学习
 * [node-tutorial](node-tutorial.md)
 
