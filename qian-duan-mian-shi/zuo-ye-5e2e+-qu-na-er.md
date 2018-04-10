@@ -1,3 +1,5 @@
+作业帮
+
 1. 手写一个闭包
 2. 闭包的作用和缺点
 
@@ -190,7 +192,7 @@ arr.every(function(value){                 // false
 11. 怎么写一个中间件
 12. nuxt.js
 13. 前端优化有哪些？
-14. 1,'1','',null.[],{}用true和false表示他们
+14. 1,'1','',null.\[\],{}用true和false表示他们
 15. 说一下内存泄露和垃圾回收机制
 16. localstorage存入一个1，获取的时候返回是1，是什么类型？
 17. localstorage，cookie，sessionstorage的区别
@@ -202,5 +204,6 @@ arr.every(function(value){                 // false
 23. flex使用过吗？怎么实现？怎么实现30%+40%+30%
 24. es6有哪些东西？
 25. 怎么让异步的函数变成同步的？
+
 
 
