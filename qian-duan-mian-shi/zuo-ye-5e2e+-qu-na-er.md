@@ -1,10 +1,17 @@
 ### 作业帮
 
 1. 手写一个闭包
-2. 闭包的作用和缺点
 
-3. $.fn.extend与$.extend的区别
+```
+本人简单的理解： 闭包就是一个访问父函数局部变量的函数；
 
+```
+
+
+
+1. 闭包的作用和缺点
+2. $.fn.extend与$.extend的区别
+3. vue中a={data:{b:1}},b发生变化时watch可以监听到吗？怎么做才可以监听到。
 4. 说一下常用的es6语法
 
 ```
@@ -202,17 +209,31 @@ arr.every(function(value){                 // false
 23. 手写一个不定宽盒子居中？
 24. flex使用过吗？怎么实现三等分？怎么实现30%+40%+30%
 25. es6有哪些东西？
-26. 怎么让异步的函数变成同步的？
-27. react native 安卓与ios
-28. ios怎么取消点按选中的效果
-29. webpack的一些配置有哪些？
-30. 说一下loader和plugins的区别
-31. Ie8
-32. antd
-33. ionic
-34. react生命周期有哪些？
-35. vue的生命周期有哪些？
-36. react&vue的区别
+26. a,b分别输出的是什么？
+
+
+```
+(function(){
+var a=b=1
+})()
+console.log(a)
+console.log(b)
+
+拆分一下就是 var a=b;b=1;
+省略var 就是代表声明的是全局变量
+```
+
+1. 怎么让异步的函数变成同步的？
+2. react native 安卓与ios
+3. ios怎么取消点按选中的效果
+4. webpack的一些配置有哪些？
+5. 说一下loader和plugins的区别
+6. Ie8
+7. antd
+8. ionic
+9. react生命周期有哪些？
+10. vue的生命周期有哪些？
+11. react&vue的区别
 
 
 
