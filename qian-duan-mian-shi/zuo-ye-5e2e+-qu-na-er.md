@@ -60,8 +60,9 @@ var emp = new Employee('keepfool@xxx.com');
 ```
 
 1. 平时用到了那些算法，说一下有哪些，并可以手写出来
-
 2. vue中methods和computer的区别.
+3. 怎么监听一个对象内部属性变化？
+4. 这样很好性能，可以怎么优化？
 
 ```
 http://www.jb51.net/article/120073.htm
@@ -210,6 +211,11 @@ arr.every(function(value){                 // false
 29. webpack的一些配置有哪些？
 30. 说一下loader和plugins的区别
 31. Ie8
+32. antd
+33. ionic
+34. react生命周期有哪些？
+35. vue的生命周期有哪些？
+36. react&vue的区别
 
 
 
