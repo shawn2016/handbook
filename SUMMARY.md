@@ -60,6 +60,7 @@
   * [作业帮+去哪儿+好未来](qian-duan-mian-shi/zuo-ye-5e2e+-qu-na-er.md)
   * [es6 数组实例的 entries\(\) ， keys\(\) 和 values\(\)](qian-duan-mian-shi/es6-shu-zu-shi-li-de-entries-keys-he-values.md)
   * [ES6数组对象新增方法](qian-duan-mian-shi/es6shu-zu-dui-xiang-xin-zeng-fang-fa.md)
+  * [css未知宽高的盒子div居中的多种方法](qian-duan-mian-shi/csswei-zhi-kuan-gao-de-he-zi-div-ju-zhong-de-duo-zhong-fang-fa.md)
 * mongoose学习
 * [node-tutorial](node-tutorial.md)
 
