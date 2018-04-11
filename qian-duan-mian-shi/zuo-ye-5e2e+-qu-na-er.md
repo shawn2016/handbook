@@ -111,9 +111,6 @@ some() 方法测试该数组有元素通过了指定函数的测试，如果有�
 
 every() 方法测试该数组是否全部通过指定函数测试，全部通过返回true，否则，返回false。
 
-
-
-
 forEach 遍历数组
 var arr = ["a", "b", "c"];
 arr.forEach(function(element,index) {
