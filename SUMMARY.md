@@ -61,6 +61,7 @@
   * [es6 数组实例的 entries\(\) ， keys\(\) 和 values\(\)](qian-duan-mian-shi/es6-shu-zu-shi-li-de-entries-keys-he-values.md)
   * [ES6数组对象新增方法](qian-duan-mian-shi/es6shu-zu-dui-xiang-xin-zeng-fang-fa.md)
   * [css未知宽高的盒子div居中的多种方法](qian-duan-mian-shi/csswei-zhi-kuan-gao-de-he-zi-div-ju-zhong-de-duo-zhong-fang-fa.md)
+  * [JavaScript中加号运算符的类型转换优先级是什么？](qian-duan-mian-shi/javascriptzhong-jia-hao-yun-suan-fu-de-lei-xing-zhuan-huan-you-xian-ji-shi-shi-yao-ff1f.md)
 * mongoose学习
 * [node-tutorial](node-tutorial.md)
 
