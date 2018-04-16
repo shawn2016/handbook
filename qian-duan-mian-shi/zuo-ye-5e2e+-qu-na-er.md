@@ -249,16 +249,18 @@ watch和computed各自处理的数据关系场景不同
 
 ```
 最核心的区别Git是分布式的，而Svn不是分布的
-
+Git下载下来后，在OffLine状态下可以看到所有的Log,SVN不可以。
+刚开始用时很狗血的一点，SVN必须先Update才能Commit,忘记了合并时就会出现一些错误，git还是比较少的出现这种情况。
 ```
-
-
 
 1. 说一下git add/git commit/git push的动作都干什么了？
 2. 特殊要求，线上代码有问题，需要立马回滚，怎么做？
-3. 一个文件需要输入和压缩或者编译后需要怎么做？（webpack）
-4. plugins是干嘛的，有哪些常用的插件。
-5. 怎么去掉字符串的重复项[https://blog.csdn.net/admin\_yi/article/details/54925440](https://blog.csdn.net/admin_yi/article/details/54925440) split+正则
+
+
+
+1. 一个文件需要输入和压缩或者编译后需要怎么做？（webpack）
+2. plugins是干嘛的，有哪些常用的插件。
+3. 怎么去掉字符串的重复项[https://blog.csdn.net/admin\_yi/article/details/54925440](https://blog.csdn.net/admin_yi/article/details/54925440) split+正则
 
 ```
 var a="aaAAcRfR";
