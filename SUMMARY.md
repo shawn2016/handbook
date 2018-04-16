@@ -63,6 +63,7 @@
   * [css未知宽高的盒子div居中的多种方法](qian-duan-mian-shi/csswei-zhi-kuan-gao-de-he-zi-div-ju-zhong-de-duo-zhong-fang-fa.md)
   * [JavaScript中加号运算符的类型转换优先级是什么？](qian-duan-mian-shi/javascriptzhong-jia-hao-yun-suan-fu-de-lei-xing-zhuan-huan-you-xian-ji-shi-shi-yao-ff1f.md)
   * exports 和 module.exports 的区别
+  * [javascript中不易分清的slice,splice和split三个函数](qian-duan-mian-shi/javascriptzhong-bu-yi-fen-qing-de-slice-splice-he-split-san-ge-han-shu.md)
 * mongoose学习
 * [node-tutorial](node-tutorial.md)
 
