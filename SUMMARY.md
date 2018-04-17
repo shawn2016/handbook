@@ -66,4 +66,5 @@
   * [javascript中不易分清的slice,splice和split三个函数](qian-duan-mian-shi/javascriptzhong-bu-yi-fen-qing-de-slice-splice-he-split-san-ge-han-shu.md)
 * mongoose学习
 * [node-tutorial](node-tutorial.md)
+  * [node基础\(慕课网学习\)](node-tutorial/nodeji-784028-mu-ke-wang-xue-4e6029.md)
 
