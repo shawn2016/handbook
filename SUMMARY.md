@@ -64,6 +64,7 @@
   * [JavaScript中加号运算符的类型转换优先级是什么？](qian-duan-mian-shi/javascriptzhong-jia-hao-yun-suan-fu-de-lei-xing-zhuan-huan-you-xian-ji-shi-shi-yao-ff1f.md)
   * exports 和 module.exports 的区别
   * [javascript中不易分清的slice,splice和split三个函数](qian-duan-mian-shi/javascriptzhong-bu-yi-fen-qing-de-slice-splice-he-split-san-ge-han-shu.md)
+  * [用友+随行付](qian-duan-mian-shi/yong-53cb+-sui-xing-fu.md)
 * mongoose学习
 * [node-tutorial](node-tutorial.md)
   * [node基础\(慕课网学习\)](node-tutorial/nodeji-784028-mu-ke-wang-xue-4e6029.md)
